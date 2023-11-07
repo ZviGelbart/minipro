@@ -1,0 +1,110 @@
+body{
+    text-align: center;
+
+}
+h1{
+    font-size: 60px;
+    position: absolute;
+    right: 20px;
+    color: white;
+}
+h3{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 60px;
+}
+
+#head{
+    height: 200px;
+    background-color: black;
+}
+#list{
+    background: gray;
+}
+
+#head img{
+    float: left;
+    width: 340px;
+    height: 185px;
+    padding: 20px;
+}
+
+table{
+border: solid black 1px;
+margin: auto;
+width: 60%;
+height: 60%;
+
+
+}
+td, th{
+    border: solid black 1px;
+    background-color: gray;
+    width: 70px;
+    height: 40px;
+}
+ul{
+    list-style: none;
+    margin: auto;
+    padding: 30px;
+    position: sticky;
+}
+li{
+    display: inline;
+    font-size: 25px;
+    border: solid black 3px;
+    border-radius: 50px;
+    padding: 10px;
+    
+    /* background:black; */
+    color: white;
+}
+#impressions img{
+    width: 100%;
+    height: auto;
+    border: solid gray 3px;
+    margin: 10px;
+   
+}
+#impressions{
+    padding: 40px;
+    width: 400px;
+    height: auto;
+    display: flex;
+    padding-right:300px ;
+}
+a{
+    text-decoration: none;
+}
+p{
+    border: solid black 2px;
+    padding: 30px 60px 30px 60px;
+}
+#description{
+    margin: 0px 200px 100px 200px;
+}
+h4{
+    font-size: 40px;
+}
+#fedix li{
+    display:block ;
+    background-color: black;
+    width: 100px;
+    
+   
+}
+#fedix{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#floating {
+    background-color: white;
+    position: fixed;
+    top: 380px;
+    right: 0px;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+}
